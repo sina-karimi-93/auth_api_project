@@ -149,6 +149,7 @@ REST_FRAMEWORK = {
     ]
 }
 
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 # this is for django contrib sites
 SITE_ID = 1
